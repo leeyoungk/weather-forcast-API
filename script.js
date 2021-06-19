@@ -1,5 +1,5 @@
 var apiKey = "74b0bbc4a7d8abe4537bfb05b0794c94";
-var cityName = "tacoma";
+var cityName = $("#searchBar");
 var url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
 fetch(url)
     .then(function(response){

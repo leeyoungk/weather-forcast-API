@@ -3,3 +3,139 @@
     box-sizing: border-box;
 }
 
+
+  
+  header {
+    background: blue
+    
+  }
+  
+  
+  h3 {
+
+    font-size: 2em;
+    font-weight: 500    ;
+    margin-top: 8px;
+  }
+  
+  h4 {
+    font-size: 2px;
+    font-weight: 500;
+  }
+  
+  
+  #searchData{
+    
+    border-color: black;
+    
+  }
+  .form-group {
+    padding: 5px;
+    width: 25%;
+  }
+  
+  #weatherContainer {
+    width: 75%;
+    padding: 10px;
+  }
+  
+  #previousData {
+    color: grey;
+  }
+  
+  #currentWeatherContainer {
+    border: solid green 1px;
+    padding: 10px;
+  }
+  
+  #fiveDayBoxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #fiveDayContainer div {
+    color: black;
+    width: calc(25% - 10px);
+    padding: 10px;
+  }
+  
+  
+  .btn {
+    width: 100%;
+    margin: 5px ;
+
+  }
+  
+  .clearBtn {
+    background-color: var(--clear);
+    margin-top: 15px;
+  }
+  
+  #searchBtn {
+    background-color: blue;
+    color: white;
+    margin: 15px 0;
+  }
+  
+
+  .icon {
+    width: 60px;
+  }
+  
+
+  .uvStyle {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .uvLow {
+    background-color: #6c7a6a;
+  }
+  
+  .uvMid {
+    background-color: #14a52086;
+  }
+  
+  .uvMidHigh {
+    background-color: #b0bb14e1;
+  }
+  
+  .uvHigh {
+    background-color: #494217;
+  }
+  
+  .uvWarning {
+    background-color: #db0c0c;
+  }
+  
+  
+  .frozenDay {
+    background-color: rgb(21, 223, 230);
+  }
+  
+  .coldDay {
+    background-color: rgb(32, 14, 201);
+  }
+  
+  .chillDay {
+    background-color: rgb(75, 112, 117);
+  }
+  
+  .niceDay {
+    background-color: rgb(98, 177, 147);
+  }
+  
+  .perfectDay {
+    background-color: rgb(10, 121, 84);
+  }
+  
+  .crazyDay {
+    background-color: rgb(196, 214, 28);
+  }
+  
+  .burning {
+    background-color: rgb(165, 36, 19);
+  }
+  
+  

@@ -18,12 +18,15 @@
         <h1 class="p-3 mb-2 bg-primary text-white d-flex justify-content-center">Weather Dashboard</h1>
     </header>
 
-    <main class="row">
+    <main class="row d-flex bd-highlight mb-3">
         
         <div class="form-group">
-            <label for="exampleFormControlTextarea1" class="p-3 mb-2 ml-1 h2">Search for a city:</label>
-            <input id = "searchBar" class="border border-dark form-control p-3 mb-1 ml-3" type="text" placeholder="city">
-            <button type="submit" class=" border border-dark w-100 btn btn-primary mb-2 ml-3 ">Search</button>
+            
+            <h2 class="p-3 mb-2 ml-1 h2" >Search for a City:</h2>
+            <form id="searchData">
+            </form>
+            <div id="previousData">
+            </div>
         </div>
         <section id="weatherContainer">
         </section>
